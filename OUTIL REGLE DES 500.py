@@ -4,8 +4,8 @@ print("Pour un capteur full-frame 24x36 ; facteur de conversion = x1.")
 #juste pour faire un peu + pro ;)
 version = "0.0.2"
 
-focal = eval(input("longueur focale : "))
-convert = eval(input("facteur de conversion : "))
+focal = float(input("longueur focale : "))
+convert = float(input("facteur de conversion : "))
 
 time = (500/(focal*convert)) #pr calculer grâçe à la règle des 500
 
