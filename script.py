@@ -10,7 +10,7 @@ time = (500/(focal*convert)) #pr calculer grâçe à la règle des 500
 
 print(str(time) + " secondes")
 
-#affichage en fin de programme 
+'#affichage en fin de programme'
 print(".")
 print("v" + str(version) + " du programmme")
 #créé par Clémz
